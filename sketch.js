@@ -72,24 +72,33 @@ function draw(){
     block5.display();
     block6.display();
     block7.display();
+    fill("skyblue");
     block8.display();
     block9.display();
     block10.display();
     block11.display();
     block12.display();
+    fill("pink");
     block13.display();
     block14.display();
     block15.display();
+    fill("green");
     block16.display();
+    fill("grey");
     block17.display();
     block18.display();
     block19.display();
     block20.display();
     block21.display();
+    fill("skyblue");
     block22.display();
     block23.display();
     block24.display();
+    fill("green");
     block25.display();
+    fill("pink");
     ground.display();
+
+
 
 }
