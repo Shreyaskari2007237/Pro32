@@ -90,6 +90,6 @@ function draw(){
     block23.display();
     block24.display();
     block25.display();
-
+    ground.display();
 
 }
