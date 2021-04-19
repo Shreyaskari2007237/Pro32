@@ -13,13 +13,12 @@ class Block{
     }
     display(){
         push();
-        //var angle=this.body.angle;
         var pos=this.body.position;
        translate(pos.x,pos.y);
        rotate(angle);
        fill(rgb(3,252,194))
        rectMode(CENTER);
-       rect(pos.x,pos.y,this.width,this.height);
+       rect(0,0,this.width,this.height);
        pop();
     }
 }
