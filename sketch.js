@@ -56,13 +56,13 @@ function setup(){
     //top
     block25=new Block(640,165,30,40);
 
-    Engine.update(engine);
+Engine.run(engine);                           
   
 }
 
 function draw(){
     background("brown");
-    Engine.run(engine);
+    Engine.update(engine);
     text(mouseX + ',' + mouseY, 30, 45);
 
     block1.display();
